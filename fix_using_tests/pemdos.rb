@@ -1,7 +1,10 @@
 def snake_it_up(string)
   if string[0] == "s"
-  10 * "s" + string
+    returned_string = 's' * 10 #the string needs to come first when using multiply
+    returned_string += string
+    return returned_string
   else
-  string
+    return string
   end
+  
 end
