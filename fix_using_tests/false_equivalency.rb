@@ -11,9 +11,10 @@ def prompt_user
 end
 
 def selection(num)
-  if num = 1
+  case num
+  when 1
      "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 2
+  when 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
