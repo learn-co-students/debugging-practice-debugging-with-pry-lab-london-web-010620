@@ -12,7 +12,8 @@ def crew
 end
 
 def greet_crew (crew)
-  crew.each {|crew_member| "Hello #{crew_member}."}
+  greetings = crew.map {|crew_member| "Hello #{crew_member}."}
+  greetings
 end
 
 def engage
@@ -20,3 +21,4 @@ def engage
   state_log(date)
   greet_crew(crew)
 end
+
