@@ -6,3 +6,4 @@ describe "classical_gas" do
     expect(dinobones.unleaded_price = 100).to eq(100)
   end
 end
+
